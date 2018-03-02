@@ -1,5 +1,5 @@
 package multiThreading;
 
-public class xaaaa4 {
+public class abc {
 
 }
