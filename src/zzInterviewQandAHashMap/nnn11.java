@@ -1,6 +1,10 @@
-package zzInterviewQandA;
+package zzInterviewQandAHashMap;
 
-public class nnn2 {
+/**
+ * @author Renjith
+ *
+ */
+public class nnn11 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -2,10 +2,10 @@ package zzInterviewQandA;
 
 public abstract  class Parent {
 	 protected String name;
-	 private int age;	 
-	 private String type;
+	 protected int age;	 
+	 protected String type;
 	 
-	 public Parent() {}
+	public Parent() {}
 	
 	public Parent(String name, int age) {	
 		this.name = name;
