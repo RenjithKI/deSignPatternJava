@@ -11,15 +11,20 @@ package zzInterviewQandAHashMap;
 The issue with arrays is that they are of fixed length so if it is full you cannot add
  any more elements to it, likewise if there are number of elements gets removed from it the memory consumption would be the same as it doesn’t shrink. On the other ArrayList can dynamically grow and shrink after addition and removal of elements. Apart from these benefits ArrayList class enables us to use predefined methods of it which makes our task easy. 
 Let’s see the ArrayList example first then we will discuss it’s methods and their usage.
+
+https://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist
  *
  */
 import java.util.*;
-
-public class ArrayListExample {
+//
+public class ArrayListExample3 {
    public static void main(String args[]) {
       /*Creation of ArrayList: I'm going to add String
        *elements so I made it of string type */
-	  ArrayList<String> obj = new ArrayList<String>();
+	  
+	   List<String> obj = new ArrayList<>();
+	  
+	 // List obj = Collections.synchronizedList(new ArrayList<String>() ) ;
 
 	  /*This is how elements should be added to the array list*/
 	  obj.add("Ajeet");

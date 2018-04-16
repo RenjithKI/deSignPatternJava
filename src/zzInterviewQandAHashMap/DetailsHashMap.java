@@ -22,17 +22,24 @@ public class DetailsHashMap {
       hmap.put(7, "Singh");
       hmap.put(49, "Ajeet");
       hmap.put(3, "Anuj");
+      hmap.put(null, "Anuj2");
+      System.out.println("___##1###___"+ hmap.put(null, "Anuj222") );
+      System.out.println("___################___"+hmap.put(3, "Anuj3") );
       //
-      hmap.keySet();
-      hmap.values();
-      hmap.entrySet();
-
+      System.out.println(hmap.keySet());
+      System.out.println(hmap.values());
+      System.out.println(hmap.entrySet() );
+      
+      
+      System.out.println("________________________________#########");
+      
+      
       /* Display content using Iterator*/
       Set set = hmap.entrySet();
       Iterator iterator = set.iterator();
       while(iterator.hasNext()) {
          Map.Entry mentry = (Map.Entry)iterator.next();
-         System.out.print("key is: "+ mentry.getKey() + " & Value is: ");
+         System.out.println("key is: "+ mentry.getKey() + " & Value is: ");
          System.out.println(mentry.getValue());
       }
 
@@ -41,13 +48,13 @@ public class DetailsHashMap {
       System.out.println("Value at index 2 is: "+var);
 
       /* Remove values based on key*/
-      hmap.remove(3);
+      System.out.println("___@@@@@@@@@@@@@@''''___"+ hmap.remove(3) );
       System.out.println("Map key and values after removal:");
       Set set2 = hmap.entrySet();
       Iterator iterator2 = set2.iterator();
       while(iterator2.hasNext()) {
           Map.Entry mentry2 = (Map.Entry)iterator2.next();
-          System.out.print("Key is: "+mentry2.getKey() + " & Value is: ");
+          System.out.println("Key is: "+mentry2.getKey() + " & Value is: ");
           System.out.println(mentry2.getValue());
        }
 

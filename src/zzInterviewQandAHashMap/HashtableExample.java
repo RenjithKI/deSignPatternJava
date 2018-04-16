@@ -24,8 +24,12 @@ public class HashtableExample {
    hashtable.put("Key3","Peter");
    hashtable.put("Key4","Ricky");
    hashtable.put("Key5","Mona");
+   //hashtable.put(null, "Anuj2");
+   System.out.println("___################___"+hashtable.put("Key3", "Anuj33") );
+   System.out.println("___################___"+hashtable.put("Key3", "Anuj44") );
  
    names = hashtable.keys();
+   System.out.println("___names___"+names.toString());
    while(names.hasMoreElements()) {
       key = (String) names.nextElement();
       System.out.println("Key: " +key+ " & Value: " +
