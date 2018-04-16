@@ -7,7 +7,7 @@ import java.util.List;
  * @author Renjith
  *
  */
-public class List_ForEach {
+public class List_ForEach2 {
 
 	public static void main(String[] args) {
 		List<String> items = new ArrayList<>();

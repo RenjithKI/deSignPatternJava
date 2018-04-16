@@ -14,12 +14,15 @@ Let’s see the ArrayList example first then we will discuss it’s methods and thei
  *
  */
 import java.util.*;
-
-public class ArrayListExample {
+//
+public class ArrayListExample2 {
    public static void main(String args[]) {
       /*Creation of ArrayList: I'm going to add String
        *elements so I made it of string type */
-	  ArrayList<String> obj = new ArrayList<String>();
+	  
+	   List<String> obj = new ArrayList<>();
+	  
+	 // List obj = Collections.synchronizedList(new ArrayList<String>() ) ;
 
 	  /*This is how elements should be added to the array list*/
 	  obj.add("Ajeet");
