@@ -1,8 +1,7 @@
 package zzInterviewQandAHashMap;
-import java.util.*;
 /*//import static org.junit.Assert.assertThat;
-*/import java.util.ArrayDeque;
-import java.util.Deque;
+*/
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -38,6 +37,21 @@ public class ArrayListTest {
 	public void test3() {
 		Collection<Integer> number 
 		  = IntStream.range(0, 10).boxed().collect(Collectors.toSet());
+		
+		System.out.println(number);
+		 
+		List<Integer> list = new ArrayList<>(number);
+		assertEquals(10, list.size());
+		assertTrue(number.containsAll(list));
+		
+	}
+	
+	@Test
+	public void test33() {
+		Collection<Integer> number 
+		  = IntStream.range(0, 100).boxed().collect(Collectors.toSet());
+		
+		System.out.println(number);
 		 
 		List<Integer> list = new ArrayList<>(number);
 		assertEquals(10, list.size());

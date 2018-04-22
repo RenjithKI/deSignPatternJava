@@ -33,6 +33,9 @@ public class List_ForEach2 {
 				System.out.println(item);
 			}
 		});
+		
+		//Output : C
+				items.forEach(item->{ if("C".equals(item)){	System.out.println(item); }	 });
 			
 		//method reference
 		//Output : A,B,C,D,E
