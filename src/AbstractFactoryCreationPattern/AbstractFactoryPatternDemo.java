@@ -11,6 +11,9 @@ public class AbstractFactoryPatternDemo {
 
 	      //call draw method of Shape Circle
 	      shape1.draw();
+	      Circle circle = (Circle) shape1;
+	      
+	      circle.fill();
 
 	      //get an object of Shape Rectangle
 	      Shape shape2 = shapeFactory.getShape("RECTANGLE");

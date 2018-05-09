@@ -32,9 +32,9 @@ public class HashSetExample {
       hset.add("Mango");
       hset.add("Grapes");
       hset.add("Orange");
-      hset.add("Fig");
+      System.out.println("duplicate addition____>" +hset.add("Fig") );
       //Addition of duplicate elements
-      hset.add("Apple");
+      System.out.println("duplicate addition____>" +hset.add("Apple") );
       hset.add("Mango");
       //Addition of null values
       hset.add(null);

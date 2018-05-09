@@ -18,7 +18,10 @@ package zzzJackson2Convert_JavaObjectto_fromJSON;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
- 
+
+import com.google.gson.*;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonArray; 
 /**
  * @author Renjith
  *
