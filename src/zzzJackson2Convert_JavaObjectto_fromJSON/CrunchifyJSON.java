@@ -43,6 +43,9 @@ public class CrunchifyJSON {
  
 		String jsonString = callURL("https://cdn.crunchify.com/wp-content/uploads/code/jsonArray.txt");
 		System.out.println("\n\njsonString: " + jsonString);
+		/*for (int i = 0; i < args.length; i++) {
+			
+		}*/
  
 // Replace this try catch block for all below subsequent examples
 		try {  

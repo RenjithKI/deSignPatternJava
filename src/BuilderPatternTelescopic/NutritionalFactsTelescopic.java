@@ -1,6 +1,6 @@
 package BuilderPatternTelescopic;
 
-public class NutritionalFacts {
+public class NutritionalFactsTelescopic {
 
 	private final int ServingSize;  // (ml)   required
 	private final int Serving;  // (per container)   required
@@ -11,23 +11,23 @@ public class NutritionalFacts {
 	private final int Carbohydrates;  // (g/serving)    optional
 	
 	
-	public NutritionalFacts(int servingSize, int serving) {
+	public NutritionalFactsTelescopic(int servingSize, int serving) {
 	this (servingSize, serving, 0);
 	}
 	
-	public NutritionalFacts(int servingSize, int serving, int calories) {
+	public NutritionalFactsTelescopic(int servingSize, int serving, int calories) {
 		this (servingSize, serving, calories, 0);
 		}
 	
-	public NutritionalFacts(int servingSize, int serving, int calories, int fat) {
+	public NutritionalFactsTelescopic(int servingSize, int serving, int calories, int fat) {
 		this (servingSize, serving, calories, fat, 0);
 		}
 	
-	public NutritionalFacts(int servingSize, int serving, int calories, int fat, int sodium) {
+	public NutritionalFactsTelescopic(int servingSize, int serving, int calories, int fat, int sodium) {
 		this (servingSize, serving, calories, fat, sodium, 0);
 	}
 
-	public NutritionalFacts(int servingSize, int serving, int calories, int fat, int sodium, int carbohydrates) {		
+	public NutritionalFactsTelescopic(int servingSize, int serving, int calories, int fat, int sodium, int carbohydrates) {		
 		this.ServingSize = servingSize;
 		this.Serving = serving;
 		this.Calories = calories;
@@ -38,7 +38,7 @@ public class NutritionalFacts {
 	//to string method 
 	@Override
 	public String toString() {
-		return "NutritionalFacts [ServingSize=" + ServingSize + ", Serving=" + Serving + ", Calories=" + Calories
+		return "NutritionalFactsTelescopic [ServingSize=" + ServingSize + ", Serving=" + Serving + ", Calories=" + Calories
 				+ ", Fat=" + Fat + ", Sodium=" + Sodium + ", Carbohydrates=" + Carbohydrates + "]";
 	}	
 	

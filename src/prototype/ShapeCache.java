@@ -1,10 +1,13 @@
 package prototype;
+import java.util.HashMap;
 import java.util.Hashtable;
+import java.util.Map;
 
 public class ShapeCache {
 	
-   private static Hashtable<String, Shape> shapeMap  = new Hashtable<String, Shape>();
-
+   //private static Hashtable<String, Shape> shapeMap  = new Hashtable<String, Shape>();
+	 private static Map<String, Shape> shapeMap  = new HashMap<String, Shape>();
+	 
    public static Shape getShape(String shapeId) {
       Shape cachedShape = shapeMap.get(shapeId);
       return (Shape) cachedShape.clone();

@@ -23,12 +23,19 @@ public class DetailsHashMap {
       hmap.put(49, "Ajeet");
       hmap.put(3, "Anuj");
       hmap.put(null, "Anuj2");
-      System.out.println("___##1###___"+ hmap.put(null, "Anuj222") );
-      System.out.println("___################___"+hmap.put(3, "Anuj3") );
-      //
-      System.out.println(hmap.keySet());
-      System.out.println(hmap.values());
+      
+      System.out.println("size____>"+ hmap.size() );
       System.out.println(hmap.entrySet() );
+      System.out.println("duplicate addition of key and value____>"+ hmap.put(12, "Chaitanya") );
+      System.out.println("size____>"+ hmap.size() );
+      System.out.println(hmap.entrySet() );
+      
+      System.out.println("duplicate key only>"+ hmap.put(3, "ssssssssssss") );
+      System.out.println("___new key duplicate value___>"+hmap.put(50, "ssssssssssss") );
+      //
+//      System.out.println(hmap.keySet());
+//      System.out.println(hmap.values());
+     System.out.println(hmap.entrySet() );
       
       
       System.out.println("________________________________#########");
